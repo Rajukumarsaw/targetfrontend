@@ -1,0 +1,71 @@
+body{
+     
+}
+nav{
+    display: flex;
+    height:50px;
+    margin: 40px;
+    margin-right: 40px;
+
+}
+.list{
+    display: flex;
+    justify-content: center;
+}
+li{
+    padding: 0px 20px;
+    list-style-type: none;
+}
+.bt{
+    position: absolute;
+    right:45px;
+    width: 100%;
+}
+.bt_content{
+    position:absolute;
+    right:2px;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+}
+button{
+    background-color: rgb(55, 14, 175);
+    color:white;
+    height:40px;
+    border-radius: 10px;
+    padding:10px 15px;
+    cursor: pointer;
+}
+
+content{
+    display: flex;
+    /* justify-content: space-between; */
+    margin: 40px;
+}
+aside{
+    padding-top: 10%;
+    width: 150vh;
+}
+p1{
+    font-family: Franklin Gothic Medium, sans-serif;
+    font-size: 45pt;
+    font-weight: 200;
+    height: 60%;
+    margin-top: 100px;
+    color: rgb(8, 8, 74);
+}
+.pic2{
+    width: 100vh;
+}
+span{
+    color: rgb(93, 93, 236);
+}
+.p2{
+   margin-top: 30px;
+}
+.bt2{
+    margin-top: 50px;
+}

@@ -1,0 +1,78 @@
+body{
+    background-image: url(../images/bg.png);
+    
+    
+}
+ /* .headerbutton, header, .logo, .list{
+    border: 3px solid red;
+ } */
+ header{
+    display : flex;
+    height: 70px;
+    background-color: black;
+    position: absolute;
+    top:0;
+    width: 100%;
+    left:0;
+    right: 0;
+ }
+ .headerbutton{
+    position: absolute;
+    right:20px;
+    height:30px;
+    margin-top: 18px;
+    background-color: rgb(186, 43, 226);
+    color: white;
+    padding: 5px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+ }
+ .list{
+    display:flex;
+ }
+ li{
+    list-style-type: none;
+ }
+ a{
+    padding:15px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+ }
+ .logo{
+    padding:15px;
+ }
+ .line{
+    margin:15px 8px;
+    background-color: aliceblue;
+    width:1px;
+ }
+ main{
+    position: absolute;
+    left:30%;
+    right: 30%;
+    top:25%;
+ }
+ .p1{
+    font-family: "Poppins", sans-serif;
+    font-size: 45pt;
+    font-weight: 750;
+    color: rgb(240, 248, 255);
+ }
+ .p2{
+     color: #ffff;
+     font-size: 25px;
+     margin-left: 50px;
+ }
+ .belowbutton{
+    margin: 50px 150px;
+    height: 50px;
+    font-size: 20px;
+    width:250px;
+    background-color: rgb(186, 43, 226);
+    color: #fff;
+    border-radius: 8px;
+    padding: 10px 5px;
+    cursor: pointer;
+    
+ }

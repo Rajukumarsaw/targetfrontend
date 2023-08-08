@@ -1,0 +1,71 @@
+body{
+    background-color: aquamarine;
+}
+ h1{
+    font-size: 60px;
+    text-align: center;
+ }
+.mobile, .laptop, .tablet, .laptop_l{
+      display: none;
+      font-size: 45px;
+      color: black;
+      text-align: center;
+}
+
+@media screen and (min-width:0px){
+    body{
+        background-color:crimson;
+    }
+    .mobile{
+        display:block;
+    }
+    
+}
+@media screen and (min-width:500px){
+    body{
+        background-color:aqua;
+    }
+    .mobile{
+        display:none;
+    }
+    .tablet{
+        display: block;
+    }
+    
+}
+
+@media screen and (min-width:768px){
+    body{
+        background-color:darkgoldenrod;
+    }
+    .mobile{
+        display:none;
+    }
+    .tablet{
+        display: none;
+    }
+    .laptop{
+        display:block;
+    }
+    
+}
+@media screen and (min-width:1024px){
+    body{
+        background-color:forestgreen;
+    }
+    .mobile{
+        display:none;
+    }
+    .tablet{
+        display: none;
+    }
+    .laptop{
+        display:none;
+    }
+    .laptop_l{
+        display: block;
+    }
+    
+}
+
+

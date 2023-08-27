@@ -1,0 +1,261 @@
+body{
+    background-color:rgb(10, 10, 10);
+    color: aliceblue;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:70px;
+    font-size: 20px;
+    margin-top: 20px;
+    
+}
+nav>ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav li{
+    list-style-type: none;
+    padding: 30px;
+}
+section{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+section>img{
+    margin-right: 30px;
+}
+.media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.media img{
+    padding: 30px;
+}
+nav button{
+ height: 80%;
+ width: 150px;
+ border-radius: 15px;
+ color: aliceblue;
+ background-color: rgba(210, 202, 202, 0.132);
+}
+section>div>h1{
+    font-size: 60px;
+}
+section>div>h4{
+    font-size: 20px;
+}
+.buy{
+   
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    width:70%;
+    background-color: rgb(65, 63, 63);
+    border-radius: 15px;
+
+}
+ .specsimg{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+ }
+ .specs{
+    display:flex;
+    gap: 100px;
+    justify-content: center;
+    
+ }
+ .specright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+ }
+ .specleft>div{
+    width: 80%;
+    height: 50%;
+ }
+ .specleft{
+    display: flex;
+    flex-direction: column;
+ }
+ .g1, .g4{
+    align-self:flex-end;
+ }
+ .case{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    
+ }
+ .casecont{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+ }
+ .casecont>div{
+    margin: 10px 60px;
+ }
+ .case_description{
+       font-size: 20px;
+       line-height: 1.5;
+ }
+ .moreinfo{
+    display: flex;
+     align-items: center;
+     justify-content:space-evenly;
+     background-color: rgb(65, 63, 63);
+     border-radius: 10px;
+
+ }
+ .case_right{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+ }
+ .buy2{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    height:50vh;
+    width: 80%;
+    margin-left: 10vw;
+    background-color: rgb(41, 47, 44);
+    border-radius: 15px;
+ }
+ .buynow{
+    padding: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 60%;
+    height:30px;
+    background-color: black;
+    border-radius: 15px;
+    cursor: pointer;
+ }
+ .buy2>div{
+    margin-right: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+ }
+   .cyslogo{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0 100px 0;
+   }
+  .box{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(41, 47, 44);
+  }
+  .box>img{
+    height: 150px;
+    width: 120px;
+  }
+  .product{
+    display: grid;
+    grid-template-columns: 200px 200px;
+    justify-content: center;
+    row-gap: 100px;
+    column-gap: 100px;
+
+  }
+
+  .buy3{
+    display: flex;
+    align-items: center;
+    margin: 15px;
+    position: relative;
+    width: 150px;
+  }
+  .box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+  }
+  .buy3 div{
+    height: 35px;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    right: 0%;
+    background-color: black;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .buy3 p{
+    margin: 10px;
+  }
+  .box>img{
+    position: relative;
+    bottom: 40px;
+  }
+  footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items:flex-start;
+    margin-top: 50px;
+    position: relative;
+
+  }
+  .emailent{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    padding: 0 10px 0 10px;
+    height: 60px;
+    width: 400px;
+    background-color: rgb(41, 47, 44);
+    border-radius: 10px;
+  }
+  .subscribe{
+    display: flex;
+    padding: 5px;
+    height: 60%;
+    width: 45%;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  .subscribe>img{
+    margin-right: 5px;
+  }
+  footer>img{
+    margin-top: 50px;
+  }
+  footer ul{
+    list-style-type: none;
+  }
+ img[alt="uparrow"]{
+    position: absolute;
+    top: 0px;
+    right:20px;
+  }
+  .p1{
+    font-size: 20px;
+  }
+  li, img[alt="group"], img[alt="uparrow"], .add{
+    cursor: pointer;
+  }
+ 
+
+
+
+    
